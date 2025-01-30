@@ -2,7 +2,12 @@
 
 int main(){
     int year;
-    scanf("%d"
-    =[-0po9i8u7y6tr&/8
-'=;juhgtfredwsa)
-op0o98hubhuhh}|}"{?:>Plkhu7y65tr4etvgghujhikol,ok7fgtfgyhjikopo}"
+    scanf("%d",&year);
+    if (year % 4 == 0){
+        printf("Leap Year");
+    }
+    else {
+        printf("Not a Leap Year");
+    }
+    return 0;
+}
