@@ -20,6 +20,11 @@ int main(){
 
         case '/':
         s = a / b;
+        if(b == 0)
+        {
+            printf("error");
+            break;
+        }
         break;
 
         default:
