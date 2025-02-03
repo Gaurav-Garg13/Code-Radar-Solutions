@@ -2,9 +2,9 @@
 int main(){
     int a,b,s;
     char c;
-    scanf("%d %d %c";&a,&b,&c);
+    scanf("%d %d %c",&a,&b,&c);
     switch(c)
-    {
+    
         case "+":
         s = a + b;
         break;
@@ -21,7 +21,7 @@ int main(){
         s = a / b;
         break;
 
-    }
+    
     printf("%d", s);
     return 0;
 }
