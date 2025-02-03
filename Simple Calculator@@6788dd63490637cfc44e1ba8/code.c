@@ -21,6 +21,9 @@ int main(){
         s = a / b;
         break;
 
+        default:
+        printf("error")
+
     }
     printf("%d", s);
     return 0;
