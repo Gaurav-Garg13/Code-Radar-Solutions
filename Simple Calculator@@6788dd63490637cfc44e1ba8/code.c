@@ -18,7 +18,7 @@ int main(){
 
         case '*':
         s = a * b;
-        printf(".0f",s);
+        printf("%.0f",s);
         break;
 
         case '/':
