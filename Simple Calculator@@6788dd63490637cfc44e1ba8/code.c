@@ -27,6 +27,6 @@ int main(){
         break;
 
     }
-    printf("%f",s);
+    printf("%.0f",s);
     return 0;
 }
