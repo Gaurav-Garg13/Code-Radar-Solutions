@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(){
     int a,b,s;
     char c;
@@ -22,10 +23,10 @@ int main(){
         break;
 
         default:
-        printf("error");
+        printf("error\n");
         break;
 
     }
-    printf("%d", s);
+    printf("%d",s);
     return 0;
 }
