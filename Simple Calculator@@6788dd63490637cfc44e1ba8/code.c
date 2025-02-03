@@ -5,19 +5,19 @@ int main(){
     scanf("%d %d %c";&a,&b,&c);
     switch(c)
     {
-        case '+':
+        case "+":
         s = a + b;
         break;
 
-        case '-':
+        case "-":
         s = a - b;
         break;
 
-        case '*':
+        case "*":
         s = a * b;
         break;
 
-        case '/':
+        case "/":
         s = a / b;
         break;
 
