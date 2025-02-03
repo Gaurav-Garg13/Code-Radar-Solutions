@@ -22,7 +22,7 @@ int main(){
         break;
 
         default:
-        printf("error")
+        printf("error");
 
     }
     printf("%d", s);
