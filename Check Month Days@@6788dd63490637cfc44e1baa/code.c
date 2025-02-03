@@ -38,5 +38,8 @@ int main(){
     else if (month == 12){
         printf("31");
     }
+    else if (month == 13){
+        printf("Inalid month");
+    }
     return 0;
 }
