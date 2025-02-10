@@ -2,7 +2,7 @@
 int main(){
     int n;
     scanf("%d,&n");
-    int numb = sizeof(unsigned int)*8;
+    int numb = 32;
     if (n & (1 << (numb-1))){
         printf("Set");
     }
