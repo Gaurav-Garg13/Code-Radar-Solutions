@@ -1,17 +1,12 @@
 #include <stdio.h>
-void check_msb(int num){
-    int num_bits  = sizeof(int) * 8;
-    int msb = num >> (num_bits - 1); 
-    if (msb == 1){
-        printf("set\n");
+int main(){
+    int n;
+    scanf("%d,&n");
+    if (n & (1 << (sizeof(int)*8-1))){
+        printf("Set");
     }
     else {
-        printf("Not Set\n");
+        printf("Not Set");
     }
-}
-int main(){
-    int number;
-    scanf("%d",&number);
-    check_msb(number);
     return 0;
 }
