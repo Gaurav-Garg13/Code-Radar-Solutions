@@ -5,9 +5,14 @@ void tobin(int num){
         printf("0");
         return;
     }
+    int binary[32];
+    int index = 0;
     while (num > 0){
-        printf("%d",num % 2);
+        binary[index++] = num % 2;
         num = num/2;
+    }
+    for (int i = index - 1;i>=0;i--){
+        printf("%d",binary[i]);
     }
 }
 int main(){
