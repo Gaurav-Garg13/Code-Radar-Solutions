@@ -3,7 +3,7 @@
 void tobin(int num){
     if (num == 0){
         printf("0");
-        return 0
+        return;
     }
     while (num > 0){
         printf("%d",num % 2);
