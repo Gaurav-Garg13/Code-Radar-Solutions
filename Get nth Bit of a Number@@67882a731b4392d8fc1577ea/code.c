@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int getnth(int number, int n){
-    retiurn (number >> (n-1));
+    return (number >> (n-1));
 }
 int main(){
     int number,n;
