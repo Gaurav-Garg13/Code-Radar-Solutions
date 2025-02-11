@@ -12,7 +12,7 @@ void tobin(int num){
 }
 int main(){
     int n;
-    scanf("%d",&n);
+    scanf("%d\n",&n);
     printf("%d",n);
     tobin(n);
     printf("\n");
