@@ -9,6 +9,7 @@ void printholow(int n){
                 else {
                     printf(" ");
                 }
+        }
                 printf("\n");
         }
         }
