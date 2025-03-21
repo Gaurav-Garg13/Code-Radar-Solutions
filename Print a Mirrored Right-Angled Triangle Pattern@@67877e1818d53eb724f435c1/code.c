@@ -14,6 +14,6 @@ void printtriangle(int n) {
 int main (){
     int length;
     scanf("%d",&length);
-    printtraiangle(length);
+    printtriangle(length);
     return 0;
 }
