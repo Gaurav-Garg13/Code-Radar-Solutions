@@ -11,6 +11,6 @@ void numtri(int n){
 int main(){
     int length;
     scanf("%d",&length);
-    printnumtri(length);
+    numtri(length);
     return 0;
 }
