@@ -9,7 +9,7 @@ void revtri(int n){
     }
 }
 int main(){
-    int lentgh;
+    int length;
     scanf("%d",&length);
     revtri(length);
     return 0;
