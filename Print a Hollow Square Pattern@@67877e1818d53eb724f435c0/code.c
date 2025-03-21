@@ -15,7 +15,7 @@ void printholow(int n){
         }
         int main (){
             int size;
-            printf("%d",&size);
+            scanf("%d",&size);
             printholow(size);
             return 0;
         }
