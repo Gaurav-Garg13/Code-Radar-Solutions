@@ -3,7 +3,7 @@ int main(){
     int arr[1000000];
     int n;
     for (int i =0;i<n;i++){
-        scannf("%d",&arr[i]);
+        scanf("%d",&arr[i]);
     }
     int count;
     int count1;
