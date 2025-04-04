@@ -6,13 +6,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int count;
-    int count1;
+    int coun;
     for (int i=0;i<n;i++){
         if (arr[i]%2==0){
             count+=1;
         }
         else {
-            coun1 +=1;
+            coun +=1;
         }
 
     }
